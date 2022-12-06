@@ -4,8 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo App</title>
+    <link rel="stylesheet" href="style/index.css">
   </head>
   <body>
-    <!-- Write your implementation here -->
+
+    
+    <section class="search-container">
+      <h1>Todo App</h1>
+      <form action="" class="searchInput">
+        <!-- <button>Search</button> -->
+        <input type="text" class="search" placeholder="Search">
+      </form>
+    </section>
+
+    <section class="add-todo-container">
+      <h3>CREATE YOUR TODO</h3>
+      <form action="" class="add-input">
+        <input name="content" type="text" class="add-task" placeholder="What do you plan on doing?">
+        <input type="submit" class="add-btn" value="Add task">
+      </form>
+    </section>
+
+    <section class="todo-list">
+        <h3>TODO LIST</h3>
+        <div class="list" id="tasks">
+    
+        </div>
+
+    </section>
+
+    <script src="script/index.js"></script>
   </body>
 </html>
