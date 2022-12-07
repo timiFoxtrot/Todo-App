@@ -1,19 +1,3 @@
-:root {
-	--primary: #EA40A4;
-	--business: #3a82ee;
-	--personal: var(--primary);
-	--light: #EEE;
-	--grey: #888;
-	--dark: #313154;
-	--danger: #ff5b57;
-
-	--shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-
-	--business-glow: 0px 0px 4px rgba(58, 130, 238, 0.75);
-	--personal-glow: 0px 0px 4px rgba(234, 64, 164, 0.75);
-}
-
-
 * {
 	margin: 0;
 	padding: 0;
@@ -22,8 +6,8 @@
 }
 
 body {
-	background: var(--light);
-	color: var(--dark);
+	background: #EEE;
+	color: #313154;
 }
 
 section {
@@ -34,7 +18,7 @@ section {
 }
 
 h3 {
-	color: var(--dark);
+	color: #313154;
 	font-size: 1rem;
 	font-weight: 400;
 	margin-bottom: 0.5rem;
@@ -72,10 +56,10 @@ h3 {
 	width: 100%;
 	font-size: 1.125rem;
 	padding: 1rem 1.5rem;
-	color: var(--dark);
+	color: #313154;
 	background-color: #FFF;
 	border-radius: 0.5rem;
-	box-shadow: var(--shadow);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 	margin-bottom: 1.5rem;
 }
 
@@ -88,7 +72,7 @@ h3 {
 	font-weight: 700;
 	text-transform: uppercase;
 	background-color: #EEE;
-	box-shadow: var(--personal-glow);
+	box-shadow: 0px 0px 4px rgba(234, 64, 164, 0.75);
 	border-radius: 0.5rem;
 	cursor: pointer;
 	transition: 0.2s ease-out;
@@ -108,7 +92,7 @@ h3 {
 	background-color: #FFF;
 	padding: 1rem;
 	border-radius: 0.5rem;
-	box-shadow: var(--shadow);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 	margin-bottom: 1rem;
 }
 
@@ -123,7 +107,7 @@ h3 {
 }
 
 .task .todo-content input {
-	color: var(--dark);
+	color: #313154;
 	font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
 }
